@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_nav_drawer"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_semibold"
+        android:paddingLeft="@dimen/normal_padding"
+        android:paddingTop="@dimen/normal_padding"
+        android:text="ACOA"
+        android:textColor="@color/flame"
+        android:textSize="@dimen/biggest_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_semibold"
+        android:paddingLeft="@dimen/normal_padding"
+        android:text="Bedrick Prokop"
+        android:textColor="@color/taupe"
+        android:textSize="@dimen/normal_text_size5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_semibold"
+        android:paddingLeft="@dimen/normal_padding"
+        android:text="bedrick.prokop@acoa.com.br"
+        android:textColor="@color/taupe"
+        android:textSize="@dimen/normal_text_size2" />
+
+    <TextView
+        android:id="@+id/item1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/big_margin"
+        android:fontFamily="@font/montserrat_semibold"
+        android:padding="@dimen/normal_padding"
+        android:text="@string/frag_navdrawer_general_statistics_text"
+        android:textColor="@color/moonstoneBlue"
+        android:textSize="@dimen/normal_text_size5" />
+
+    <TextView
+        android:id="@+id/item2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_semibold"
+        android:padding="@dimen/normal_padding"
+        android:text="@string/frag_navdrawer_history_consumption_text"
+        android:textColor="@color/moonstoneBlue"
+        android:textSize="@dimen/normal_text_size5" />
+
+    <TextView
+        android:id="@+id/item3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_semibold"
+        android:padding="@dimen/normal_padding"
+        android:text="@string/frag_navdrawer_sustainability_text"
+        android:textColor="@color/moonstoneBlue"
+        android:textSize="@dimen/normal_text_size5" />
+
+    <TextView
+        android:id="@+id/item4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_semibold"
+        android:padding="@dimen/normal_padding"
+        android:text="@string/frag_navdrawer_my_account_text"
+        android:textColor="@color/moonstoneBlue"
+        android:textSize="@dimen/normal_text_size5" />
+
+    <TextView
+        android:id="@+id/item5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_semibold"
+        android:padding="@dimen/normal_padding"
+        android:text="@string/frag_navdrawer_logout_text"
+        android:textColor="@color/moonstoneBlue"
+        android:textSize="@dimen/normal_text_size5" />
+</LinearLayout>

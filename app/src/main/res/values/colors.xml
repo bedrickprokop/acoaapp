@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- defaults -->
+    <color name="colorPrimary">#73A9C2</color>
+    <color name="colorPrimaryDark">#5E8BA0</color>
+    <color name="colorAccent">#E25822</color>
+
+    <!-- pallet -->
+    <color name="moonstoneBlue">#73A9C2</color>
+    <color name="rackley">#5E8BA0</color>
+    <color name="flame">#E25822</color>
+    <color name="isabelline">#F4F0EC</color>
+    <color name="stilDeGrainYellow">#FADA5E</color>
+    <color name="taupe">#4B3B2D</color>
+
+    <!-- others -->
+    <color name="colorWhiteSmokeBg">#F7F7F7</color>
+    <color name="colorGrayDisabled">#cbcbcb</color>
+    <color name="colorBlackDarkerAlpha">#8A000000</color>
+    <color name="colorWhiteMoreAlpha2">#EEFFFFFF</color>
+    <color name="lightLineColor">#FFB6B6B6</color>
+    <color name="colorSwitchText">#767676</color>
+    <color name="textInputChecking">#FF2A2B86</color>
+    <color name="colorBlueDark">#2a2b86</color>
+    <color name="colorBlueLight">#31D2CC</color>
+    <color name="red">#FF0000</color>
+    <color name="black">#000000</color>
+    <color name="grey">#BBBBBB</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#03A9F4</color>
+</resources>

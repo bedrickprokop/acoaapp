@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Acoa</string>
+
+    <!-- toolbar titles -->
+    <string name="toolbar_title_general_statistics">Estatísticas gerais</string>
+    <string name="toolbar_title_history_consumption">Histórico de consumo</string>
+    <string name="toolbar_title_sustaintability">Sustentabilidade</string>
+    <string name="toolbar_title_my_account">Minha conta</string>
+    <string name="toolbar_title_logout">Sair</string>
+
+    <!-- drawer menu -->
+    <string name="frag_navdrawer_general_statistics_text">Estatísticas gerais</string>
+    <string name="frag_navdrawer_history_consumption_text">Histórico de consumo</string>
+    <string name="frag_navdrawer_sustainability_text">Sustentabilidade</string>
+    <string name="frag_navdrawer_my_account_text">Minha conta</string>
+    <string name="frag_navdrawer_logout_text">Sair</string>
+
+    <!-- general statistics -->
+    <string name="frag_general_statistics_subtitle">Estatísticas de consumo por condomínio</string>
+    <string name="frag_general_statistics_average_consumption_hour">Consumo médio/h</string>
+    <string name="frag_general_statistics_average_consumption_day">Consumo médio/dia</string>
+    <string name="frag_general_statistics_average_consumption_month">Consumo médio/mês</string>
+    <string name="frag_general_statistics_total_consumption_day">Consumo total/dia</string>
+    <string name="frag_general_statistics_total_consumption_month">Consumo total/Mês</string>
+    <string name="frag_general_statistics_total_consumption_year">Consumo total/Ano</string>
+    <string name="frag_general_statistics_line_chart_title">Consumo diário de água</string>
+    <string name="frag_general_statistics_line_chart_legend_1">Média/dia</string>
+    <string name="frag_general_statistics_line_chart_legend_2">Média/ONU</string>
+
+    <!-- consumption history -->
+    <string name="frag_consumption_history_subtitle">Histórico de consumo anual</string>
+
+    <string name="frag_consumption_history_subtitle_2">Histórico de consumo nos últimos 4 anos</string>
+
+    <!-- collaborators -->
+    <string name="activity_title_collaborators">Collaborators</string>
+    <string name="activity_title_addcollaborator">New Collaborator</string>
+    <string name="et_maintaincollaborator_name_required">Name is required</string>
+    <string name="et_maintaincollaborator_login_required">Login is required</string>
+    <string name="tv_addcollaborator_name">Name</string>
+    <string name="tv_addcollaborator_login">Login</string>
+    <string name="tv_addcollaborator_profile">Profile</string>
+    <string name="et_maintaincollaborator_password_required">Password is required</string>
+    <string name="tv_addcollaborator_password">Password</string>
+    <string name="activity_title_collaboratordetail">Collaborator Detail</string>
+    <string name="notprovided_message">Not provided</string>
+    <string name="activity_title_editcollaborator">Edit Collaborator</string>
+    <string name="createcollaborator_actionmessage"><![CDATA[Collaborator %1$s created successfully]]></string>
+    <string name="editcollaborator_actionmessage"><![CDATA[Collaborator %1$s edited successfully]]></string>
+    <string name="nocollaborators_message">There are no collaborators /:</string>
+</resources>
