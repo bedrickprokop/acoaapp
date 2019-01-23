@@ -19,7 +19,7 @@ public class GeneralStatisticsPresenter implements GeneralStatisticsContract.Use
     @Override
     public void loadStatistics(boolean doRefresh) {
         mView.setProgressIndicator(true);
-        mServiceApi.loadStatsConsumption(new GeneralStatisticsServiceApi.Callback<GeneralStatisticsEntity>() {
+        mServiceApi.loadStatsConsumption(new GeneralStatisticsServiceApi.GeneralStatisticsCallback<GeneralStatisticsEntity>() {
             @Override
             public void onLoaded(GeneralStatisticsEntity data) {
                 mView.setProgressIndicator(false);

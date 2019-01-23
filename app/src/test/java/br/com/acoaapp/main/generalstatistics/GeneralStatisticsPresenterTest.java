@@ -13,8 +13,6 @@ import java.util.ArrayList;
 import br.com.acoaapp.data.entity.DateFlowEntity;
 import br.com.acoaapp.data.entity.GeneralStatisticsEntity;
 import br.com.acoaapp.data.service.GeneralStatisticsServiceApi;
-import br.com.acoaapp.main.generalstatistics.GeneralStatisticsContract;
-import br.com.acoaapp.main.generalstatistics.GeneralStatisticsPresenter;
 
 import static org.mockito.Mockito.verify;
 
@@ -39,7 +37,7 @@ public class GeneralStatisticsPresenterTest {
     private GeneralStatisticsServiceApi generalStatisticsServiceApi;
 
     @Captor
-    ArgumentCaptor<GeneralStatisticsServiceApi.Callback> generalStatisticsServiceCallbackArgumentCaptor;
+    ArgumentCaptor<GeneralStatisticsServiceApi.GeneralStatisticsCallback> generalStatisticsServiceCallbackArgumentCaptor;
 
     @Mock
     private GeneralStatisticsContract.View generalStatisticsView;

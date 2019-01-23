@@ -28,7 +28,7 @@ public class ConsumptionHistoryPresenterTest {
     private ConsumptionHistoryServiceApi consumptionHistoryServiceApi;
 
     @Captor
-    ArgumentCaptor<ConsumptionHistoryServiceApi.Callback> consumptionHistoryServiceCallbackArgumentCaptor;
+    ArgumentCaptor<ConsumptionHistoryServiceApi.ConsumptionHistoryCallback> consumptionHistoryServiceCallbackArgumentCaptor;
 
     @Mock
     private ConsumptionHistoryContract.View consumptionHistoryView;

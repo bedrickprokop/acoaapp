@@ -4,9 +4,9 @@ import br.com.acoaapp.data.entity.ConsumptionHistoryEntity;
 
 public interface ConsumptionHistoryServiceApi {
 
-    interface Callback<T> {
+    interface ConsumptionHistoryCallback<T> {
         void onLoaded(T data);
     }
 
-    void loadConsumptionHistory(ConsumptionHistoryServiceApi.Callback<ConsumptionHistoryEntity> callback);
+    void loadConsumptionHistory(ConsumptionHistoryCallback<ConsumptionHistoryEntity> consumptionHistoryCallback);
 }
