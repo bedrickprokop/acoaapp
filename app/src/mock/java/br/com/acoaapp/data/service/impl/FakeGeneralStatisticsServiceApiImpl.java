@@ -16,7 +16,7 @@ import br.com.acoaapp.utils.DateTimeUtils;
 public class FakeGeneralStatisticsServiceApiImpl implements GeneralStatisticsServiceApi {
 
     @Override
-    public void loadStatsConsumption(final Callback<GeneralStatisticsEntity> callback) {
+    public void loadStatsConsumption(final GeneralStatisticsCallback<GeneralStatisticsEntity> callback) {
 
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
@@ -92,7 +92,7 @@ public class FakeGeneralStatisticsServiceApiImpl implements GeneralStatisticsSer
     }
 
     @Override
-    public void loadConsumptionPerDay(String date, final Callback<GeneralStatisticsEntity> callback) {
+    public void loadConsumptionPerDay(String date, final GeneralStatisticsCallback<GeneralStatisticsEntity> callback) {
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
@@ -104,7 +104,7 @@ public class FakeGeneralStatisticsServiceApiImpl implements GeneralStatisticsSer
     }
 
     @Override
-    public void loadConsumptionPerMonth(String date, final Callback<GeneralStatisticsEntity> callback) {
+    public void loadConsumptionPerMonth(String date, final GeneralStatisticsCallback<GeneralStatisticsEntity> callback) {
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
@@ -116,7 +116,7 @@ public class FakeGeneralStatisticsServiceApiImpl implements GeneralStatisticsSer
     }
 
     @Override
-    public void loadConsumptionPerMonthInYear(Integer year, final Callback<GeneralStatisticsEntity> callback) {
+    public void loadConsumptionPerMonthInYear(Integer year, final GeneralStatisticsCallback<GeneralStatisticsEntity> callback) {
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
@@ -128,7 +128,7 @@ public class FakeGeneralStatisticsServiceApiImpl implements GeneralStatisticsSer
     }
 
     @Override
-    public void loadConsumptionPerYear(Integer year, final Callback<GeneralStatisticsEntity> callback) {
+    public void loadConsumptionPerYear(Integer year, final GeneralStatisticsCallback<GeneralStatisticsEntity> callback) {
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override

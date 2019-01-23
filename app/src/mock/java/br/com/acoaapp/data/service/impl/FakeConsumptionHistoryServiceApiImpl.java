@@ -12,7 +12,7 @@ import br.com.acoaapp.data.service.ConsumptionHistoryServiceApi;
 public class FakeConsumptionHistoryServiceApiImpl implements ConsumptionHistoryServiceApi {
 
     @Override
-    public void loadConsumptionHistory(final Callback<ConsumptionHistoryEntity> callback) {
+    public void loadConsumptionHistory(final ConsumptionHistoryCallback<ConsumptionHistoryEntity> callback) {
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
