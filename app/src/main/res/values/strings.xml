@@ -15,6 +15,15 @@
     <string name="frag_navdrawer_my_account_text">Minha conta</string>
     <string name="frag_navdrawer_logout_text">Sair</string>
 
+    <!-- login activity -->
+    <string name="act_login_tvtext_logomark">ACOA</string>
+    <string name="act_login_tvtext_slogan">Aplicativo para acompanhamento do consumo de água</string>
+    <string name="act_login_ethint_email">Email</string>
+    <string name="act_login_ethint_password">Password</string>
+    <string name="act_login_bttext_enter">Entrar</string>
+    <string name="act_login_ettext_requiredemail">Email is required</string>
+    <string name="act_login_ettext_requiredpassword">Password is required</string>
+
     <!-- general statistics -->
     <string name="frag_general_statistics_subtitle">Estatísticas de consumo por condomínio</string>
     <string name="frag_general_statistics_average_consumption_hour">Consumo médio/h</string>
