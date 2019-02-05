@@ -57,12 +57,15 @@ android {
     }
 
     sourceSets {
-        mock { java.srcDirs = ['src/mock/java', 'src/mock/java/'] }
-        prod { java.srcDirs = ['src/prod/java', 'src/prod/java/'] }
+        mock { java.srcDirs = ['src/mock/java', /*'src/androidTestMock/java'*/] }
+        prod { java.srcDirs = ['src/prod/java', /*'src/androidTestProd/java'*/] }
         androidTest { java.srcDirs = ['src/androidTest/java'] }
+
+        //androidTestMock { java.srcDirs = ['src/androidTestMock/java'] }
+        //androidTestProd { java.srcDirs = ['src/androidTestProd/java'] }
         //main { java.srcDirs = ['src/main/java', 'src/main/java/'] }
         //test { java.srcDirs = ['src/test/java', 'src/test/java/'] }
-    }
+}
 
     packagingOptions {
         exclude 'META-INF/ASL2.0'
