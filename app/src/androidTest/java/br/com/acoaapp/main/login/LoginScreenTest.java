@@ -65,4 +65,18 @@ public class LoginScreenTest {
         onView(withId(R.id.bt_login)).perform(click());
         //onView(withText("Estatísticas gerais")).check(matches(isDisplayed()));
     }
+
+    @Test
+    public void whenFillOnlyEmailField_andPressEnterButton_shouldDisplayAnErrorMessage(){
+        onView(withId(R.id.et_email)).perform(typeText(email));
+        closeSoftKeyboard();
+        onView(withId(R.id.bt_login)).perform(click());
+    }
+
+    @Test
+    public void whenFillOnlyPasswordField_andPressEnterButton_shouldDisplayAnErrorMessage(){
+        onView(withId(R.id.et_password)).perform(typeText(password));
+        closeSoftKeyboard();
+        onView(withId(R.id.bt_login)).perform(click());
+    }
 }
