@@ -5,9 +5,11 @@ import android.support.test.filters.LargeTest;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
+import org.junit.internal.runners.statements.Fail;
 import org.junit.runner.RunWith;
 
 import br.com.acoaapp.R;
@@ -78,5 +80,6 @@ public class LoginScreenTest {
         onView(withId(R.id.et_password)).perform(typeText(password));
         closeSoftKeyboard();
         onView(withId(R.id.bt_login)).perform(click());
+        Assert.fail();
     }
 }
