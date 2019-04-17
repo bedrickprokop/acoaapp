@@ -15,8 +15,8 @@ import android.view.MenuItem;
 
 import br.com.acoaapp.R;
 import br.com.acoaapp.constants.MessageConstants;
-import br.com.acoaapp.main.generalstatistics.GeneralStatisticsFragment;
 import br.com.acoaapp.main.consumptionhistory.ConsumptionHistoryFragment;
+import br.com.acoaapp.main.generalstatistics.GeneralStatisticsFragment;
 import br.com.acoaapp.main.myaccount.MyAccountFragment;
 import br.com.acoaapp.main.sustaintability.SustaintabilityFragment;
 

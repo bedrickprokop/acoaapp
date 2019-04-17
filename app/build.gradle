@@ -65,7 +65,10 @@ android {
         //androidTestMock { java.srcDirs = ['src/androidTestMock/java'] }
         //androidTestProd { java.srcDirs = ['src/androidTestProd/java'] }
         //main { java.srcDirs = ['src/main/java', 'src/main/java/'] }
-}
+
+
+        main {assets.srcDirs = ['src/main/assets', 'src/main/assets/'] }
+    }
 
     packagingOptions {
         exclude 'META-INF/ASL2.0'
@@ -106,6 +109,8 @@ dependencies {
 
     // ESPRESSO IDLING RESOURCES
     implementation "com.android.support.test.espresso:espresso-idling-resource:$rootProject.ext.espressoVersion"
+
+    implementation 'com.airbnb.android:lottie:2.2.0'
 
     // LOCAL UNIT TESTS
     testImplementation "junit:junit:$rootProject.ext.junitVersion"
